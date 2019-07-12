@@ -86,3 +86,8 @@ backup:
   type: git
   repository:
     github: git@github.com:CareyWang/1more-hexo.git,hexo
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

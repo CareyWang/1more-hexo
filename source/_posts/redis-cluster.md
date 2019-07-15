@@ -41,7 +41,7 @@ tags: Redis
 
 # Just do it !
 ## 依赖
-本次 Redis-Cluster 在 Ubuntu 下，基于 docker + docker-compose + 官方 redis 镜像实现，后续可能会自己打包镜像，加入现有的 kibana, zabbix 等服务的集成。
+本次 Redis-Cluster 在 Ubuntu 下，基于 docker + docker-compose + 官方 redis 镜像实现，后续可能加入 ES & Kibana & Zabbix 做数据分析与监控。
 
 | Program | Version  |
 | ---- | ---- |

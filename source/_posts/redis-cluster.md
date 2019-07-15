@@ -41,14 +41,14 @@ tags: Redis
 
 # Just do it !
 ## 依赖
-本次 Redis-Cluster 在 Ubuntu 下，基于 docker + docker-compose + 官方 redis 镜像实现，后续可能加入 ES & Kibana & Zabbix 做数据分析与监控。
+本次 Redis-Cluster 在 Ubuntu 下，基于 Docker + Docker-Compose + 官方 Redis 镜像实现，后续可能加入 ES & Kibana & Zabbix 做数据分析与监控。
 
 | Program | Version  |
 | ---- | ---- |
 | Ubuntu | 16.04 |
-| docker | 18.09.1, build 4c52b90 |
-| docker-compose | 1.17.1, build 6d101fb |
-| redis | 5.0.5 |
+| Docker | 18.09.1, build 4c52b90 |
+| Docker-Compose | 1.17.1, build 6d101fb |
+| Redis | 5.0.5 |
 
 ## 开工
 > [Github](https://github.com/CareyWang/gaia/tree/master/redis) 可以找到下面 docker-compose.yml 以及其他配置。学习之路才刚刚开始，欢迎大佬们指正错误。

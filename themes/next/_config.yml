@@ -592,7 +592,7 @@ calendar:
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: CareyWong
   count: true
   lazyload: false
 
@@ -844,7 +844,7 @@ local_search:
   unescape: false
 
 # Swiftype Search API Key
-swiftype_key:
+swiftype_key: JXBs83BJgyzz7_3wwAvV
 
 
 # ---------------------------------------------------------------

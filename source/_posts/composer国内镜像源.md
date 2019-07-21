@@ -16,7 +16,7 @@ mv composer.phar /usr/local/bin/composer
 ```
 
 # [阿里云](https://developer.aliyun.com/composer)
-背靠阿里云资源，个人目前选择。
+自用稳定性很好，个人目前选择。
 ```shell
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```

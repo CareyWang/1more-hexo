@@ -796,7 +796,10 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
+  page_pv: true
+  page_pv_header: 本文总阅读量
+  page_pv_footer: 次
   total_visitors: true
   total_visitors_icon: user
   total_views: true

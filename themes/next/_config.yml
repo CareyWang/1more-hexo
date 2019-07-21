@@ -717,7 +717,7 @@ needmoreshare2:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: # <app_id>
+baidu_analytics: fb048ee0a643d3927d69f4068394aded # <app_id>
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com

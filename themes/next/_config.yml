@@ -79,9 +79,6 @@ footer:
     enable: false
     icp:
 
-  busuanzi:
-    enable: false
-
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
 # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
@@ -155,7 +152,7 @@ baidu_push: true
 menu:
   home: / || home
   archives: /archives/ || archive
-  # about: /about/ || user
+  about: /about/ || user
   # tags: /tags/ || tags
   #categories: /categories/ || th
   #schedule: /schedule/ || calendar
@@ -799,7 +796,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true

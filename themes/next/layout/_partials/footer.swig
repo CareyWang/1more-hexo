@@ -55,6 +55,14 @@
 #}</div>
 {% endif %}
 
+{% if theme.footer.busuanzi.enable %}
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span class="post-meta-divider">|</span>
+<span id="busuanzi_container_site_uv">
+  本站总访问量: <span id="busuanzi_value_site_uv"></span>次
+</span>
+{% endif %}
+
 {% for inject_item in theme.injects.footer %}
   {{ partial(inject_item.layout, inject_item.locals, inject_item.options) }}
 {% endfor %}

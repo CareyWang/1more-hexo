@@ -1,8 +1,8 @@
 ---
 title: MySQL 事务嵌套解决方案小结
-urlname: mysql-transaction-nesting
 date: 2019-07-12 14:27:34
 tags: MySQL
+urlname: mysql-transaction-nesting
 ---
 
 &emsp;&emsp;MySQL 事务机制被广泛用于处理操作量大、复杂度高的数据，日常业务中也很常见。在默认的 MySQL 配置下，事务默认是自动提交的，因此要显式地开启一个事务务须使用命令 BEGIN 或 START TRANSACTION，或者执行命令 SET AUTOCOMMIT=0，用来禁止使用当前会话的自动提交。

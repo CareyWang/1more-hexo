@@ -1,8 +1,8 @@
 ---
 title: PHP Composer 国内全量镜像源整理
 date: 2019-07-15 11:04:45
-urlname: composer-mirrors
 tags: php
+urlname: composer-mirrors
 ---
 
 近日，各大云服务厂商逐渐公布了自己的 PHP Composer 全量镜像，整理以下『全量镜像』供大家选择。

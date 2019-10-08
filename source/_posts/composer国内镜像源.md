@@ -49,3 +49,9 @@ composer config -g repos.packagist composer https://php.cnpkg.org
 ```shell
 composer config -g --unset repos.packagist
 ```
+
+# 多线程下载
+```shell
+composer global require hirak/prestissimo
+composer clearcache
+```
